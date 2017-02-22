@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="new_game">New Game</string>
+
+    <string name="status">"Player X's turn"</string>
+
+    <string name="oneText">""</string>
+    <string name="twoText">""</string>
+    <string name="threeText">""</string>
+    <string name="fourText">""</string>
+    <string name="fiveText">""</string>
+    <string name="sixText">""</string>
+    <string name="sevenText">""</string>
+    <string name="eightText">""</string>
+    <string name="nineText">""</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.nku.mccartym2.tictactoe.MainActivity">
+
+    <Button
+        android:text="@string/oneText"
+        android:textSize="25sp"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/one"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:text="@string/twoText"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/two"
+        android:layout_toEndOf="@id/one"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:text="@string/threeText"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/three"
+        android:layout_toEndOf="@id/two"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:text="@string/fourText"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/four"
+        android:layout_below="@id/one"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:text="@string/fiveText"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/five"
+        android:layout_toEndOf="@id/four"
+        android:layout_below="@id/two"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:text="@string/sixText"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/six"
+        android:layout_toEndOf="@id/five"
+        android:layout_below="@id/three"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:text="@string/sevenText"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seven"
+        android:layout_below="@id/four"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:text="@string/eightText"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eight"
+        android:layout_toEndOf="@id/seven"
+        android:layout_below="@id/five"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:text="@string/nineText"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nine"
+        android:layout_toEndOf="@id/eight"
+        android:layout_below="@id/six"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/status"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eight"
+        android:layout_alignEnd="@+id/nine"
+        android:layout_alignStart="@+id/seven"
+        android:text="@string/status"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/newGame"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/status"
+        android:layout_marginTop="10dp"
+        android:text="@string/new_game"
+        android:layout_alignEnd="@+id/nine"
+        android:layout_alignStart="@+id/seven"/>
+
+</RelativeLayout>
